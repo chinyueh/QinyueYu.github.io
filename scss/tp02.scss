@@ -3,10 +3,14 @@ $uchicago-light-gray: #D6D6CE;
 $uchicago-dark-gray: #767676;
 
 body {
-    background-color: $uchicago-light-gray;
-    color: #000000;
-    font-family: 'Helvetica', sans-serif;
-    text-decoration: none !important;
+  display:flex;
+  flex-direction: column;
+  background-color: $uchicago-light-gray;
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+  text-decoration: none;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .navbar{
@@ -36,6 +40,9 @@ body {
     }
   }
 
+main{
+  flex:1;
+}
 
 .footer {
     background-color: $uchicago-dark-gray;
