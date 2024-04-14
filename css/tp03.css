@@ -1,0 +1,16 @@
+
+body{
+    background-color: lightslategray;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.btn-group-vertical{
+    display: grid;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.btn-group{
+    margin-bottom: 0;
+
+}
+
