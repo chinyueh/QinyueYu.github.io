@@ -11,12 +11,25 @@ function checkTriviaAnswer() {
     }
 }
 
-
-document.getElementById('triviaAnswer').addEventListener('keypress', function(event) {
-    if (event.key === "Enter") {
-        checkTriviaAnswer();
-    }
+document.addEventListener('DOMContentLoaded', () => {
+    const triviaInput = document.getElementById("triviaAnswer");
+    triviaInput.addEventListener("keypress", function(event){
+        if (event.key === "Enter") {
+            event.preventDefault();
+            checkTriviaAnswer();
+        }
+    
+    });
+    const numberInput = document.getElementById("numberInput");
+    numberInput.addEventListener("keypress", function(event){
+        if (event.key === "Enter") {
+            event.preventDefault();
+            checknumber();
+        }
+    });
 });
+
+
 
 // Function to check if the number is a 5-digit integer and whether it's odd or even
 function checkNumber() {
@@ -36,8 +49,3 @@ function checkNumber() {
     }
 }
 
-document.getElementById('numberInput').addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
-        checkNumber();
-    }
-});
