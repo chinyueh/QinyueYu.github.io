@@ -17,15 +17,12 @@
     margin-top: 15px;
 }
 .controlsInner .btn {
-    display: flex;
+    display: center;
     align-items: center;
     justify-content: center;
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -37,7 +34,7 @@
 }
 
 .controlsInner .btn:active {
-
+    display: center;
     background-color: #eaeaea; 
 }
 #loading {
@@ -55,5 +52,4 @@
     text-align: center;
     color: #333;
 }
-
 
