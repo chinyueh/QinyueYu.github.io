@@ -1,0 +1,58 @@
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+.music-player {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+.controlsOuter {
+    text-align: center;
+    margin-top: 15px;
+}
+.controlsInner .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.controlsInner .btn i {
+    font-size: 20px;
+    color: #555;
+    pointer-events: none; 
+}
+
+.controlsInner .btn:active {
+
+    background-color: #eaeaea; 
+}
+#loading {
+    text-align: center;
+    color: #666;
+    font-size: 0.85em;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#track, #timer, #duration {
+    display: block;
+    text-align: center;
+    color: #333;
+}
+
+
