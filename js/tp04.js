@@ -30,8 +30,7 @@ function togglePlayPause()
 };
 
 // musicPlayer
-const playBtn = document.getElementById('playBtn');
-const pauseBtn = document.getElementById('pauseBtn');
+
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const track = document.getElementById('track');
@@ -167,14 +166,14 @@ document.addEventListener('DOMContentLoaded', function() {
         { title: 'Tchaikovsky - Dance of the Sugar Plum Fairy', file: 'audio3', howl: null }
     ]);
   
-    playBtn.addEventListener('click', function() {
+    document.getElementById('playBtn').addEventListener('click', function() {
       playBtn.style.display = 'none';   
       pauseBtn.style.display = 'block'; 
       player.play();
       
     });
   
-    pauseBtn.addEventListener('click', function() {
+    document.getElementById('pauseBtn').addEventListener('click', function() {
       pauseBtn.style.display = 'none';  
       playBtn.style.display = 'block';  
       player.pause();
