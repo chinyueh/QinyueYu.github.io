@@ -24,7 +24,7 @@
     height: 50px;
     line-height: 50px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    
 }
 .controlsInner .btn i {
     display: center;
