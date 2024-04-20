@@ -29,7 +29,7 @@ function togglePlayPause()
     }
 };
 
-//musicPlayer
+// musicPlayer
 const playBtn = document.getElementById('playBtn');
 const pauseBtn = document.getElementById('pauseBtn');
 const prevBtn = document.getElementById('prevBtn');
