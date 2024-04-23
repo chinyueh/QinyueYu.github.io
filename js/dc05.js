@@ -1,6 +1,7 @@
 function lastItem(items){
     document.getElementById('originalArray').textContent = `The original array is [Watermelon, Apple, Orange, Kiwi], and I sorted it alphabetically.`;
     const lastAlphabetically = items.slice().sort()[items.length - 1];
+    //backtick ` used
     document.getElementById('lastItem').textContent = `The last item of the sorted array is ${lastAlphabetically}`;
 
 }
