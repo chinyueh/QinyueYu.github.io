@@ -1,8 +1,10 @@
-function lastItem(items){
-    document.getElementById('originalArray').textContent = `The original array is [Watermelon, Apple, Orange, Kiwi], and I sorted it alphabetically.`;
-    const lastAlphabetically = items.slice().sort()[items.length - 1];
-    //backtick ` used
-    document.getElementById('lastItem').textContent = `The last item of the sorted array is ${lastAlphabetically}`;
+function lastItem(){
+    var arrayName = ['Watermelon', 'Apple', 'Orange', 'Kiwi']
+    var y = arrayName.slice();
+    var selectedElement = document.getElementById("fruit")
+    var x = arrayName.sort()
+    selectedElement.innerText = `The original array is [${y}], and I sorted it alphabetically. 
+    The last item of the sorted array is ${x[x.length - 1]}.`;
 
 }
 
