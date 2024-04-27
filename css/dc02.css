@@ -17,10 +17,17 @@ table {
 }
 
 th, td {
+    /*Cell padding is the space between the cell edges and the cell content.*/
+    /*Cell spacing is the space between each cell.*/
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
+  /*zebra by row
+  tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+  */
   
   thead {
     background-color: #f2f2f2;
