@@ -33,6 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Extract title of item for the webpage
       var textTitle = sourceXML.getElementsByTagName('identification');
+      if (textTitle.length > 1) {
+          var title_string = document.createTextNode(textTitle[1].textContent);
+          document.getElementById('title').appendChild(title_string);
+      } else {
+          console.log('Identification tag is missing or does not have a second element');
+      } 
       var title_string = document.createTextNode(textTitle[1].textContent);
       document.getElementById('title').appendChild(title_string);
 
