@@ -1,0 +1,57 @@
+<!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/QinyueYu.github.io/index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="/contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Digital Chalkboard History
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/index.html">Digital Chalkboard 1</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc02.html">Digital Chalkboard 2</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc03.html">Digital Chalkboard 3</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc04.html">Digital Chalkboard 4</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc05.html">Digital Chalkboard 5</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc06.html">Digital Chalkboard 6</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/dc/dc07.html">Digital Chalkboard 7</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technical Presentation History
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp01.html">Technical Presentation 1</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp02.html">Technical Presentation 2</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp03.html">Technical Presentation 3</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp04.html">Technical Presentation 4</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp05.html">Technical Presentation 5</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp06_1.html">Technical Presentation 6 Part 1</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp06_2.html">Technical Presentation 6 Part 2</a></li>
+                  <li><a class="dropdown-item" href="/QinyueYu.github.io/tp/tp07.html">Technical Presentation 7</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <!--End Nav Bar-->
+      <script>
+        var pathname = window.location.pathname;
+        var cleanPath = pathname.substring(pathname.lastIndexOf('/') + 1);
+        $('[href*="' + cleanPath + '"]').addClass('active');
+      </script>
