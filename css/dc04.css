@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 20px;
+   
 }
 button{
     background-color: #007bff;
@@ -20,13 +20,8 @@ input {
 
 }
 
-.navbar{
-    width: 100%;
 
-}
-.footer{
-    width: 100%;
-}
+
 #main
 {
     min-height: calc(100vh - 150px);
