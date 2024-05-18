@@ -116,7 +116,7 @@ a.link:focus {
 }
 
 .container-content {
-  flex: auto; /* Allows the container to expand and take up any available space */
+  flex: 1; /* Allows the container to expand and take up any available space */
   min-height: 1px; /* Ensures it takes up space even when there's no content */
 }
 
