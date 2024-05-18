@@ -22,6 +22,7 @@ button{
 
 #main
 {
+    flex:1;
     min-height: calc(100vh - 150px);
 }
 
