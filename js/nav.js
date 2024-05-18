@@ -1,1 +1,1 @@
-$(function () {$("#nav-placeholder").load("/nav.html");});
+$(function () {$("#nav-placeholder").load("/QinyueYu.github.io/nav.html");});
