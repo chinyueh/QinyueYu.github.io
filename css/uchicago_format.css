@@ -33,6 +33,7 @@ a.link:focus {
 
 .navbar {
   background-color: #800000;
+  font-family: Arial, sans-serif;
 }
 
 .col-sm, .col-md {
