@@ -24,6 +24,11 @@ button{
     margin: 20px 0;
 }
 
+#main
+{
+    min-height: calc(100vh - 150px);
+}
+
 
 
 
