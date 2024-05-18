@@ -127,9 +127,3 @@ a.link:focus {
      object-fit: cover;
 }/*# sourceMappingURL=uchicago_format.css.map */
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
