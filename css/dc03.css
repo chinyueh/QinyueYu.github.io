@@ -1,4 +1,3 @@
-/* Make sure this is in dc03.css or uchicago_format.css */
 
 body {
     display: flex;
@@ -138,3 +137,7 @@ a.link:focus {
     -o-object-fit: cover;
        object-fit: cover;
   }
+#main
+{
+    min-height: calc(100vh - 150px);
+}
