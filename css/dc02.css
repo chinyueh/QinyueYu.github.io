@@ -44,9 +44,6 @@ a:not(.navbar a):hover {
     color: darkblue;
   }
  
-a.nav {
-    text-decoration: none; 
-  }
 
 .a{list-style-type: lower-roman;}
 .b{list-style-type: lower-alpha;}
@@ -74,13 +71,6 @@ p {
   color: black;
 }
 
-
-
-
-
-.navbar {
-  background-color: #800000;
-}
 
 .col-sm, .col-md {
   background-color: #D6D6CE;
