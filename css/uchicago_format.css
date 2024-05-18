@@ -115,7 +115,8 @@ a.link:focus {
 }
 
 .container-content {
-  min-height: calc(100vh - 150px);
+  flex: auto; /* Allows the container to expand and take up any available space */
+  min-height: 1px; /* Ensures it takes up space even when there's no content */
 }
 
 .book-accordion {
