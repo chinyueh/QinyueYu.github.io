@@ -1,4 +1,5 @@
-#main{
+/* Main container styles */
+#main {
     background-color: black;
     color: green;
     font-family: 'Courier New', Courier, monospace;
@@ -6,125 +7,130 @@
     padding: 20px;
 }
 
-p{
+/* Text styles */
+p {
     font-weight: bold;
-    color: green
+    color: green; /* Consistent green color */
 }
-h1{
-    color: green
+
+h1 {
+    color: green; /* Consistent green color */
 }
-  
-  a.link {
+
+/* Link styles */
+a.link {
     color: white;
     text-decoration: none;
     margin-right: 15px;
     margin-left: 0;
-  }
-  
-  a.link:hover {
+}
+
+a.link:hover, a.link:focus {
     font-weight: bold;
     color: white;
-  }
-  
-  a.link:focus {
-    font-weight: bold;
-    color: white;
-  }
-  
-  .navbar {
+}
+
+/* Navbar styles */
+.navbar {
     background-color: #800000;
     font-family: Arial, sans-serif;
-  }
-  
-  .col-sm, .col-md {
+}
+
+/* Column styles */
+.col-sm, .col-md {
     background-color: #D6D6CE;
     margin: 15px;
     padding: 5px;
-  }
-  
-  .row {
+}
+
+/* Row styles */
+.row {
     margin: 15px;
-  }
-  
-  .row-center {
+}
+
+.row-center {
     margin-left: -15px;
-  }
-  
-  .uniform-four-column-image {
+}
+
+/* Image styles */
+.uniform-four-column-image, .uniform-two-column-image {
     width: 100%;
-    height: 300px;
-    -o-object-fit: cover;
     object-fit: cover;
-  }
-  
-  .uniform-two-column-image {
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+}
+
+.uniform-two-column-image {
     padding: 5px;
-  }
-  
-  .internal-container {
+}
+
+/* Container styles */
+.internal-container {
     padding: 20px;
     margin-top: 20px;
     outline: 2px solid black;
-  }
-  
-  .icon-button {
+}
+
+/* Button styles */
+.icon-button {
     background-color: #800000;
     color: white;
-  }
-  
-  .icon-button:hover {
+}
+
+.icon-button:hover {
     box-shadow: 0 0 10px 0 #800000 inset, 0 0 30px 5px #800000;
     color: white;
-  }
-  
-  .bold-maroon-link {
+}
+
+/* Link styles */
+.bold-maroon-link {
     color: #800000;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .bold-maroon-link:hover {
+}
+
+.bold-maroon-link:hover {
     color: #800000;
     text-decoration: underline;
-  }
-  
-  .maroon_text {
+}
+
+/* Text styles */
+.maroon_text {
     color: #800000;
-  }
-  
-  .unordered_no_bullets {
+}
+
+/* List styles */
+.unordered_no_bullets {
     list-style-type: none;
-  }
-  
-  .maroon_bar {
+}
+
+/* Bar styles */
+.maroon_bar {
     background-color: #800000;
     color: white;
-  }
-  
-  .active {
+}
+
+/* Active link styles */
+.active {
     color: white;
     font-weight: bold;
-  }
-  
-  .footer {
+}
+
+/* Footer styles */
+.footer {
     background-color: #767676;
     width: 100%;
     padding: 10px 0;
     text-align: center;
     color: white;
-  }
-  
-  .container-content {
+}
+
+/* Container content styles */
+.container-content {
     flex: 1;
-  }
-  
-  .book-accordion {
+}
+
+/* Book accordion styles */
+.book-accordion {
     width: 100%;
     height: 500px;
-    -o-object-fit: cover;
     object-fit: cover;
-  }
-  
+}
