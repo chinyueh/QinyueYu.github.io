@@ -32,7 +32,7 @@ a.link:focus {
 }
 
 .navbar {
-  background-color: maroon;
+  background-color: #818B7E;
   font-family: Arial, sans-serif;
 }
 
@@ -71,28 +71,28 @@ a.link:focus {
 }
 
 .icon-button {
-  background-color: #800000;
+  background-color: #818B7E;
   color: white;
 }
 
 .icon-button:hover {
-  box-shadow: 0 0 10px 0 #800000 inset, 0 0 30px 5px #800000;
+  box-shadow: 0 0 10px 0 #818B7E inset, 0 0 30px 5px #818B7E;
   color: white;
 }
 
 .bold-maroon-link {
-  color: #800000;
+  color: #818B7E;
   text-decoration: none;
   font-weight: bold;
 }
 
 .bold-maroon-link:hover {
-  color: #800000;
+  color: #818B7E;
   text-decoration: underline;
 }
 
 .maroon_text {
-  color: #800000;
+  color: #818B7E;
 }
 
 .unordered_no_bullets {
@@ -100,7 +100,7 @@ a.link:focus {
 }
 
 .maroon_bar {
-  background-color: #800000;
+  background-color: #818B7E;
   color: white;
 }
 
