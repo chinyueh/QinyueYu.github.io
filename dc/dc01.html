@@ -12,13 +12,13 @@
     <title>Home</title>
     
     <style>
-        body {
+        html, body {
+            height: 100%;
+            margin: 0;
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
         }
-        .container-content {
+        main {
             flex: 1;
         }
         .footer {
@@ -27,7 +27,7 @@
             padding: 10px 0;
             text-align: center;
             color: white;
-        }
+        }  
     </style>
 </head>
 <body>
@@ -35,19 +35,15 @@
     <!--Nav Bar--> 
     <div id="nav-placeholder"></div>
     <!--End Nav Bar-->
-    <div class="container-fluid container-content">
-        <div class="internal-container">
-            <div class="row">
-                <div class="col">
-                    <h1>DIGS 30005 Data Publication for the Humanities</h1>
-                    <h3>Digital Chalkboard Week 02</h3>
-                    <p id="module01">First paragraph</p>
-                    <p id="module02">Second paragraph</p>
-                    <p id="module03">Third paragraph</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <main>
+       
+        <h1>DIGS 30005 Data Publication for the Humanities</h1>
+        <h3>Digital Chalkboard Week 02</h3>
+        <p id="module01">First paragraph</p>
+        <p id="module02">Second paragraph</p>
+        <p id="module03">Third paragraph</p>
+   
+    </main>
     <!--Footer-->
     <div id="footer-placeholder" class="footer"></div>
     <!--End Footer-->
